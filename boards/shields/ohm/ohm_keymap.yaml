@@ -7,16 +7,7 @@ layers:
   - [LSHFT, LCTRL, left, right, SPACE, RCTRL]
   left:
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-  - - ESC
-    - LALT
-    - LSHFT
-    - RALT
-    - ENTER
-    - PRINTSCREEN
-    - {t: LEFT, h: RCTRL}
-    - {t: DOWN, h: RSHFT}
-    - {t: UP, h: LALT}
-    - {t: RIGHT, h: RGUI}
+  - [ESC, LALT, LSHFT, RALT, ENTER, PRINTSCREEN, '&kpLEFT', DOWN, '&hmr LALT UP', RIGHT]
   - - TAB
     - HOME
     - INS
@@ -35,16 +26,7 @@ layers:
     - RSHFT
   right:
   - ['', <, '=', '>', '`', ^, '[', UP, ']', Ctl+BSPC]
-  - - {t: \, h: LGUI}
-    - {t: (, h: LALT}
-    - {t: '-', h: LSHFT}
-    - {t: ), h: LCTRL}
-    - +
-    - '%'
-    - LEFT
-    - DOWN
-    - RIGHT
-    - ENTER
+  - [\, (, '&kb MINUS', ), +, '%', LEFT, DOWN, RIGHT, ENTER]
   - ['#', '*', ':', /, '', Sft+2, '|', Sft+/, '-', BACKSPACE]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -69,7 +51,7 @@ layers:
     - RALT
     - F8
     - {t: ▽, type: trans}
-    - {t: VOL DN, h: RCTRL}
+    - VOL DN
     - MUTE
     - VOL UP
     - RGUI
